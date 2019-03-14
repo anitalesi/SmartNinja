@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fakebook by Anita</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, SmartNinja">
+</head>
+<body>
+<br>
+<h1>FAKEBOOK</h1>
+Search: <input type="text" placeholder="search by name">
+<br>
+<h2>Anita Lesi</h2>
+<img src="me.jpg" alt="profil picture" width="320" height="320">
+<br>
+<br>
+<button>Add as a friend</button>
+<br>
+<p><strong>city: </strong>Vienna</p>
+<p><strong>age: </strong>28</p>
+<p><strong>education: </strong>Ninja University</p>
+<p><strong>hobby: </strong>running</p>
+<p><strong>FB friends: </strong>21k</p>
+<p><strong>FB enemies: </strong>-21</p>
+<p><strong>pet: </strong>dog</p>
+</body>
+</html>
