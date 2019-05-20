@@ -63,14 +63,9 @@ def user_input():
         if selection.lower() == "a":
             difficulty = str(input("Please select the difficulty: easy/hard"))
             score = play_game(player_name, difficulty)    # score wird als variable ausgeführt
-            result = Result(player_name, score)           # das Objekt
 
-            with open("result.txt", "w") as result_file:  # das Objekt wird in eine json Datei gespeichert
-                json.dump(result.__dict__, result_file, default=str, indent=3)  # json string
 
         elif selection.lower() == "b":
-            with open("result.txt", "r") as read_file:
-                result = json.load(read_file)
                 print(result)
 
         else:
